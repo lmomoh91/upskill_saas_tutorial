@@ -1,11 +1,15 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
+// typography styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+// backgroud styles
 .navbar, .home-callout {
   //Gradient provided by @ighash at UI graidients.com
   background: #36D1DC;  /* fallback for old browsers */
@@ -13,6 +17,7 @@ h1, h2, h3 {
   background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// navbar styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -22,16 +27,16 @@ h1, h2, h3 {
   }
 }
 
-
-
-
-
-
-
-
 .navbar {
   border: none;
 }
+
+
+
+
+
+
+// Home Page Styles
 
 .home-callout {
   margin-top: -20px;
