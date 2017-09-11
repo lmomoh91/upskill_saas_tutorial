@@ -13,23 +13,20 @@ h1, h2, h3 {
   background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
   color: white;
+  &:hover{
+    color: white;
+    opacity: 0.75;
+  }
 }
 
-.navbar-default .navbar-nav > li > a{
-  color: white;
-}
 
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
 
-.navbar-default .navbar-nav li a:hover{
-  color: white;
-  opacity: 0.75;
-}
+
+
+
 
 
 .navbar {
